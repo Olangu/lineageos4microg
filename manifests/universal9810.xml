@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <!--Device tree-->
+  <project name="Exynoobs/android_device_samsung_starlte" path="device/samsung/starlte" revision="lineage-19.1" remote="github"/>
+  <project name="Exynoobs/android_device_samsung_exynos9810-common" path="device/samsung/exynos9810-common" revision="lineage-19.1" remote="github"/>
+  <!--Blobs-->
+  <project name="Exynoobs/proprietary_vendor_samsung_exynos9810-common" path="vendor/samsung/exynos9810-common" revision="lineage-19.1" remote="github"/>
+  <project name="Exynoobs/proprietary_vendor_samsung_starlte" path="vendor/samsung/starlte" revision="lineage-19.1" remote="github"/>
+  <!--Kernel-->
+  <project name="Exynoobs/android_kernel_samsung_exynos9810" path="kernel/samsung/exynos9810" revision="lineage-19.1" remote="github"/>
+  <!--SLSI-->
+  <project name="Lunaiere-Scrap/device_samsung_slsi_sepolicy" path="device/samsung_slsi/sepolicy" revision="twelve" remote="github"/>
+  <!--Hardware-->
+  <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" revision="lineage-19.1" remote="github"/>
+</manifest>
